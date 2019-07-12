@@ -139,7 +139,7 @@ a:active {
 
 #portfolio .portfolio-item figure .link-preview i,
 #portfolio .portfolio-item figure .link-details i {
-  padding-top: 6px;
+  padding-top: 7px;
   font-size: 22px;
   color: #333;
 }
@@ -465,6 +465,10 @@ blockquote {
 footer {
   padding: 40px 0;
   background: #f2f3eb;
+}
+footer p {
+  width: 100%;
+  text-align: center;
 }
 
 .footer a {
