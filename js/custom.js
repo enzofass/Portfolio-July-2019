@@ -68,6 +68,4 @@
       backSpeed: 30
     });
   }
-
-  
 })(jQuery);
