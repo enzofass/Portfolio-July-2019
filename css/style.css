@@ -81,7 +81,7 @@ a:active {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #bd3232;
+  background: #92dd03;
   color: #fff;
 }
 
@@ -139,14 +139,15 @@ a:active {
 
 #portfolio .portfolio-item figure .link-preview i,
 #portfolio .portfolio-item figure .link-details i {
-  padding-top: 7px;
+  padding-top: 7.5px;
+  padding-left: 2px;
   font-size: 22px;
   color: #333;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover,
 #portfolio .portfolio-item figure .link-details:hover {
-  background: #bd3232;
+  background: #92dd03;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i,
@@ -195,7 +196,7 @@ a:active {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #bd3232;
+  color: #92dd03;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -352,6 +353,7 @@ Responsive media queries
 
 .about-text p {
   color: #444;
+  margin-top: 12px;
 }
 
 .abt-list li {
@@ -424,6 +426,11 @@ blockquote {
 #contact .btn-primary {
   background: #be2525;
   border: 1px solid #be2525;
+}
+
+.carousel-info,
+blockquote {
+  float: left;
 }
 
 .validation {
@@ -553,6 +560,26 @@ footer p {
   color: #92dd03;
 }
 
+/* unvisited link */
+.contact-info a:link {
+  color: #fff;
+}
+
+/* visited link */
+.contact-info a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+.contact-info a:hover {
+  color: #808080;
+}
+
+/* selected link */
+.contact-info a:active {
+  color: rgb(94, 94, 94);
+}
+
 .social-list li {
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
@@ -616,6 +643,10 @@ Responsive media queries
 }
 
 @media (min-width: 100px) and (max-width: 550px) {
+  .about-text p {
+    text-align: center;
+  }
+
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
