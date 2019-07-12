@@ -139,7 +139,8 @@ a:active {
 
 #portfolio .portfolio-item figure .link-preview i,
 #portfolio .portfolio-item figure .link-details i {
-  padding-top: 8px;
+  padding-top: 7.5px;
+  padding-left: 2px;
   font-size: 22px;
   color: #333;
 }
@@ -427,6 +428,11 @@ blockquote {
   border: 1px solid #be2525;
 }
 
+.carousel-info,
+blockquote {
+  float: left;
+}
+
 .validation {
   color: red;
   display: none;
@@ -554,6 +560,26 @@ footer p {
   color: #92dd03;
 }
 
+/* unvisited link */
+.contact-info a:link {
+  color: #fff;
+}
+
+/* visited link */
+.contact-info a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+.contact-info a:hover {
+  color: #808080;
+}
+
+/* selected link */
+.contact-info a:active {
+  color: rgb(94, 94, 94);
+}
+
 .social-list li {
   transition: 0.2s linear;
   -webkit-transition: 0.2s linear;
@@ -617,6 +643,10 @@ Responsive media queries
 }
 
 @media (min-width: 100px) and (max-width: 550px) {
+  .about-text p {
+    text-align: center;
+  }
+
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
