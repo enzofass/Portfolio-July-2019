@@ -81,7 +81,7 @@ a:active {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #92dd03;
+  background: #bd3232;
   color: #fff;
 }
 
@@ -139,15 +139,14 @@ a:active {
 
 #portfolio .portfolio-item figure .link-preview i,
 #portfolio .portfolio-item figure .link-details i {
-  padding-top: 7.5px;
-  padding-left: 2px;
+  padding-top: 7px;
   font-size: 22px;
   color: #333;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover,
 #portfolio .portfolio-item figure .link-details:hover {
-  background: #92dd03;
+  background: #bd3232;
 }
 
 #portfolio .portfolio-item figure .link-preview:hover i,
@@ -196,7 +195,7 @@ a:active {
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #92dd03;
+  color: #bd3232;
 }
 
 #portfolio .portfolio-item .portfolio-info p {
@@ -206,6 +205,20 @@ a:active {
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+/* --- Parallax --- */
+.parallax {
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  overflow: hidden;
+}
+.parallax-pattern-overlay {
+  background-image: url(../img/david-besh-PvNRkNeyc6U-unsplash.jpg);
+  background-repeat: repeat;
 }
 
 /***********************************
@@ -276,9 +289,6 @@ Responsive media queries
   min-height: 650px;
 }
 
-.navbar-border {
-}
-
 .intro .intro-subtitle {
   font-size: 2.5rem;
 }
@@ -328,16 +338,19 @@ Responsive media queries
   margin-bottom: -3px;
 }
 
+.rounded {
+  border-radius: 4px;
+}
+
 #img-head {
   display: block;
   height: 300px;
   width: 300px;
   margin: 0 auto;
-  border-radius: 4px;
 }
 
 .section-padding {
-  padding: 60px 0px;
+  padding: 20px 0px;
 }
 
 .title {
@@ -353,7 +366,6 @@ Responsive media queries
 
 .about-text p {
   color: #444;
-  margin-top: 12px;
 }
 
 .abt-list li {
@@ -426,11 +438,6 @@ blockquote {
 #contact .btn-primary {
   background: #be2525;
   border: 1px solid #be2525;
-}
-
-.carousel-info,
-blockquote {
-  float: left;
 }
 
 .validation {
@@ -525,6 +532,11 @@ footer p {
   transition: all 0.5s ease-in 0s;
 }
 
+.carousel-info,
+blockquote {
+  float: left;
+}
+
 .map {
   position: relative;
   margin-top: 50px;
@@ -558,26 +570,6 @@ footer p {
 
 .contact-info i {
   color: #92dd03;
-}
-
-/* unvisited link */
-.contact-info a:link {
-  color: #fff;
-}
-
-/* visited link */
-.contact-info a:visited {
-  color: #fff;
-}
-
-/* mouse over link */
-.contact-info a:hover {
-  color: #808080;
-}
-
-/* selected link */
-.contact-info a:active {
-  color: rgb(94, 94, 94);
 }
 
 .social-list li {
@@ -640,13 +632,13 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
+
+  .edu-item {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 100px) and (max-width: 550px) {
-  .about-text p {
-    text-align: center;
-  }
-
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -672,5 +664,9 @@ Responsive media queries
   }
   .title-text {
     margin-bottom: 15px;
+  }
+
+  .edu-item {
+    margin-bottom: 50px;
   }
 }
