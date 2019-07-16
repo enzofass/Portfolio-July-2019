@@ -215,10 +215,21 @@ a:active {
   background-size: cover;
   background-attachment: fixed !important;
   overflow: hidden;
+  background-image: url(../img/atlanta-city.jpg);
+  background-repeat: repeat;
 }
 .parallax-pattern-overlay {
-  background-image: url(../img/david-besh-PvNRkNeyc6U-unsplash.jpg);
-  background-repeat: repeat;
+}
+
+.education-section {
+  background: rgba(255, 255, 255, 0.8);
+  padding-bottom: 10px;
+}
+
+.testimonial-sec {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding-bottom: 20px;
 }
 
 /***********************************
