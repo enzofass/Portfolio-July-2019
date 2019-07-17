@@ -406,7 +406,7 @@ Responsive media queries
 }
 
 .test-sec blockquote {
-  background: #eee;
+  background: rgb(190, 190, 190);
   display: block;
   font-size: 14px;
   line-height: 20px;
@@ -419,7 +419,7 @@ Responsive media queries
   position: absolute;
   bottom: -14px;
   margin-left: 10px;
-  border-top: 14px solid #eee;
+  border-top: 14px solid rgb(190, 190, 190);
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
 }
@@ -429,6 +429,7 @@ blockquote {
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid RGBA(0, 0, 0, 0.18);
+  /* color: #fff; */
 }
 
 .test-sec .carousel-info span {
