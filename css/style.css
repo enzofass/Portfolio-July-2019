@@ -548,6 +548,13 @@ footer p {
 blockquote {
   float: left;
 }
+.carousel-info {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.testimonial-author {
+  width: 100%;
+}
 
 .map {
   position: relative;
@@ -660,6 +667,7 @@ Responsive media queries
   }
   .carousel-info {
     margin-bottom: 30px;
+    margin-left: auto;
   }
   .type--fine-print {
     text-align: center;
